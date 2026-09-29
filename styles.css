@@ -70,3 +70,11 @@ html{scroll-padding-top:135px}
 #creative{padding-bottom:60px}
 @media(max-width:1000px){.header-inner{flex-wrap:wrap;padding:12px 0;gap:8px 18px}.header-inner nav{order:3;flex-basis:100%;margin:0;justify-content:flex-start;gap:12px 22px}html{scroll-padding-top:165px}}
 @media(max-width:600px){.language-bar-inner{width:calc(100% - 36px);min-height:47px;justify-content:space-between;gap:8px}.language-bar .language-switch{font-size:13px}.language-bar .language-switch a,.language-bar .language-switch span{padding:5px 13px}.language-label{font-size:12px}.header-inner nav{gap:8px 18px}.header-inner nav a{font-size:13px}.institution-row{grid-template-columns:1fr;gap:17px;padding:25px 0}.institution-logos{flex-direction:row;justify-content:flex-start;align-items:center;gap:18px;flex-wrap:wrap;padding:0}.institution-mark,.institution-mark.seal{width:100px;height:88px;min-height:88px;padding:7px}.institution-mark img,.institution-mark.seal img{width:86px;height:74px}.institution-mark.thu{padding:0}.institution-mark.thu img{width:100px;height:100px}.institution-mark.wide{width:140px;height:70px;min-height:70px}.institution-mark.wide img{width:126px;height:54px}.institution-copy h3{font-size:18px}.no-mark .institution-copy{grid-column:1}.institution-copy .honors li{font-size:14px}.section-heading{align-items:baseline}#creative{padding-bottom:35px}}
+
+/* Research statement and dated news */
+.research-statement{font-size:clamp(21px,2.7vw,29px);line-height:1.6;max-width:850px;margin:0;color:var(--ink)}
+.news-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.news-list li{display:grid;grid-template-columns:90px minmax(0,1fr);gap:24px;padding:17px 0;border-bottom:1px solid var(--rule)}
+.news-list time{font-size:13px;font-weight:600;color:var(--muted);padding-top:3px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.news-list p{margin:0;font-size:15px;line-height:1.75}
+@media(max-width:600px){.news-list li{grid-template-columns:1fr;gap:5px;padding:16px 0}.news-list time{padding:0}.research-statement{font-size:22px}}
