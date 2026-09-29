@@ -1,21 +1,22 @@
-# Boyuan Gu — academic homepage
+# Boyuan Gu — bilingual academic homepage
 
-Static academic website for https://phish-tech.github.io.
+Static academic website: https://phish-tech.github.io/.
 
-## Files
-- `index.html`: homepage, research, publications, projects, education and service.
-- `cv.html`: public CV with browser Print / Save as PDF support.
+## Pages
+- `index.html` / `zh.html`: English / Chinese homepage.
+- `cv.html` / `cv-zh.html`: English / Chinese public CV; supports Print / Save as PDF.
 - `styles.css`: shared responsive and print styles.
+- `language.js`: preserves the current section when switching languages. Direct links work without JavaScript.
 - `assets/`: portrait extracted from the supplied CV and favicon.
 
 ## Local preview
 Run `python -m http.server 8765 --bind 127.0.0.1` from this folder, then open http://127.0.0.1:8765.
 
 ## Publish
-GitHub Pages: deploy from branch `main`, folder `/ (root)`. No build dependencies.
+GitHub Pages deploys from branch `main`, folder `/ (root)`. No build dependencies.
 
 ## Update
-Edit the relevant HTML and push to main. Update publication details in both index.html and cv.html. The public CV intentionally includes academic contact details only. The original source PDFs are not part of the repository.
+Edit the corresponding English and Chinese pages together and push to main. Keep publication details synchronized across the homepage and CV. Paper titles and author names retain their original spelling in both editions. Both languages have stable URLs and reciprocal hreflang metadata. English is the default; language changes are explicit and do not require storage or tracking.
 
 ## Content provenance
-Based on the owner-provided BoyuanGU_CV.pdf and 顾博元-论文集（首页）.pdf, the owner's GitHub, arXiv records, and owner-confirmed M.Phil. degree and Findings of EMNLP 2026 acceptance. Author lists for the supplied paper fronts take precedence over CV abbreviations. GitHub stars and citation counts are omitted to avoid stale statistics.
+Based on owner-provided CV and paper fronts, public GitHub and arXiv records, and owner-confirmed M.Phil. degree and Findings of EMNLP 2026 acceptance. The Neural-Wave 2036 title, authors, year, acceptance and artifact links are from https://github.com/phish-tech/Neural-Wave-2036. It is listed as design fiction accepted to ACM Interactions, without inventing an issue or DOI. Award dates and individual fiction titles are omitted until supplied. Original source PDFs and private contact details are not published. Citation and star counts are omitted to avoid stale metrics.
