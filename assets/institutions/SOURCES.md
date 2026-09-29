@@ -7,3 +7,4 @@ Marks identify the institutions in the owner-supplied education and experience e
 - `glasgow.svg`: https://www.gla.ac.uk/3t4/img/ug-keyline-large.svg
 - `hkust-gz.png`: https://www.hkust-gz.edu.cn/wp-content/themes/hkust-gz-official-0827/images/logo-e-white-2x.png
 - `x-institute.png`: https://www.x-institute.edu.cn/static/img/logo.de8224ad.png
+- `duopu-cetan.png`: original logo supplied by the owner on 2026-09-29. Company website: http://duopucetan.com/. English name: Chengdu Duopu Cetan Technology Co., Ltd.
