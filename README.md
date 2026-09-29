@@ -23,3 +23,6 @@ Based on owner-provided CV and paper fronts, public GitHub and arXiv records, an
 
 ## Education, affiliations and logos
 The homepages use full-width Education (04), Academic service (05), Industry & research experience (06), and Creative work (07) sections. Honors sit within the UESTC undergraduate entry. The owner supplied the 2024 Chengdu company, 2025–2026 X-Institute research role and 2026 HKUST (Guangzhou) academic collaboration. No project duties or outcomes are inferred. The owner supplied the official English company name, Chengdu Duopu Cetan Technology Co., Ltd., its logo, and http://duopucetan.com/. Both homepage editions and CVs link to that website. Logo sources are documented in `assets/institutions/SOURCES.md`. Shared CSS/JS URLs are versioned when changed to avoid stale cached assets.
+
+## Research highlights and news
+The introduction states the research theme; three selected studies use accessible HTML concept diagrams. These are explanatory schematics, not experimental results or reproduced paper figures. News dates and publication stages were supplied by the owner. Update both language editions together; keep titles and quantitative claims grounded in the existing publication records.

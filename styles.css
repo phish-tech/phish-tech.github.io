@@ -78,3 +78,35 @@ html{scroll-padding-top:135px}
 .news-list time{font-size:13px;font-weight:600;color:var(--muted);padding-top:3px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .news-list p{margin:0;font-size:15px;line-height:1.75}
 @media(max-width:600px){.news-list li{grid-template-columns:1fr;gap:5px;padding:16px 0}.news-list time{padding:0}.research-statement{font-size:22px}}
+
+/* Editorial refinement: clear hierarchy, compact updates, explanatory research. */
+.intro{padding-top:60px;gap:58px;grid-template-columns:minmax(0,1fr) 190px}
+.portrait-block img{width:190px}
+.lead{font-size:clamp(26px,3vw,34px);line-height:1.4;letter-spacing:-.45px;max-width:790px}
+.intro-copy>p:not(.lead):not(.eyebrow):not(.position){font-size:15px;line-height:1.85;color:var(--muted)}
+.intro-copy strong{color:var(--ink)}
+.position{margin-bottom:22px}.intro{padding-bottom:12px}
+.news-section{padding-top:32px}.news-list li{padding:12px 0;gap:20px}
+.news-list p{font-size:14px;line-height:1.7}.news-list a{text-decoration:none;border-bottom:1px solid #c6d4e1}
+.section{padding-top:54px}.section-heading{margin-bottom:25px}
+.research-features{border-top:1px solid var(--rule)}
+.research-feature{display:grid;grid-template-columns:290px minmax(0,1fr);gap:34px;padding:28px 0;border-bottom:1px solid var(--rule);align-items:center}
+.research-visual{background:#f2f6fa;border:1px solid #e3eaf2;border-radius:6px;padding:22px;min-height:220px;display:flex;flex-direction:column;justify-content:center}
+.research-visual .topic-label{font-size:11px;letter-spacing:.06em;text-transform:none}
+.concept-flow{display:flex;flex-direction:column;align-items:center;margin:17px 0 10px}
+.concept-flow span{width:100%;text-align:center;background:#fff;border:1px solid #c6d5e3;border-radius:4px;padding:7px 8px;font-size:12px;line-height:1.45;color:var(--blue)}
+.concept-flow span+span{margin-top:16px;position:relative}
+.concept-flow span+span:before{content:'↓';position:absolute;top:-18px;left:calc(50% - 4px);color:#64809b}
+.diagram-caption{font-size:10px;letter-spacing:.05em;color:var(--muted);text-align:center}
+.research-venue{color:var(--link)!important;font-size:12px!important;font-weight:600;letter-spacing:.02em;margin-bottom:10px!important}
+.research-detail h3{font-family:Georgia,'Times New Roman',serif;font-size:25px;font-weight:500;line-height:1.35;margin-bottom:13px}
+.research-detail>p{font-size:15px;line-height:1.8;color:var(--muted);margin-bottom:16px}
+.research-detail .paper-links a{border-bottom:1px solid #b9cbdc;padding-bottom:2px}
+.institution-mark{border-radius:3px}.institution-copy h3{font-size:18px}
+.creative-feature{background:#f6f8fb;border-left-width:3px}
+.header-inner nav{gap:18px}.wordmark span{display:none}
+html[lang='zh-CN'] .research-detail h3{font-family:'Microsoft YaHei','PingFang SC',sans-serif;font-size:22px;font-weight:600}
+@media(min-width:1001px){.header-inner{min-height:60px}.language-bar-inner{min-height:40px}}
+@media(max-width:800px){.intro{grid-template-columns:minmax(0,1fr) 145px;gap:30px}.portrait-block img{width:145px}.research-feature{grid-template-columns:230px minmax(0,1fr);gap:24px}.research-detail h3{font-size:22px}.research-visual{padding:17px}}
+@media(max-width:600px){.intro{padding-top:30px;gap:20px}.portrait-block img{width:94px}.intro .lead{font-size:27px;line-height:1.45}.intro-copy>p:not(.lead):not(.eyebrow):not(.position){font-size:14px}.section{padding-top:40px}.news-list li{grid-template-columns:66px minmax(0,1fr);gap:12px;padding:13px 0}.news-list time{font-size:11px;line-height:1.9}.news-list p{font-size:13px}.research-feature{grid-template-columns:1fr;gap:20px;padding:24px 0}.research-visual{min-height:0;padding:17px}.concept-flow{flex-direction:row;gap:13px;margin:15px 0 9px}.concept-flow span{font-size:10px;padding:9px 4px;flex:1;min-width:0}.concept-flow span+span{margin:0}.concept-flow span+span:before{content:'→';top:calc(50% - 8px);left:-12px}.research-detail h3{font-size:23px}.research-detail>p{font-size:14px}.header-inner nav{gap:8px 17px}html{scroll-padding-top:170px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
