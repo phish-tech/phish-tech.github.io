@@ -20,3 +20,6 @@ Edit the corresponding English and Chinese pages together and push to main. Keep
 
 ## Content provenance
 Based on owner-provided CV and paper fronts, public GitHub and arXiv records, and owner-confirmed M.Phil. degree and Findings of EMNLP 2026 acceptance. The Neural-Wave 2036 title, authors, year, acceptance and artifact links are from https://github.com/phish-tech/Neural-Wave-2036. It is listed as design fiction accepted to ACM Interactions, without inventing an issue or DOI. Award dates and individual fiction titles are omitted until supplied. Original source PDFs and private contact details are not published. Citation and star counts are omitted to avoid stale metrics.
+
+## Education, affiliations and logos
+The homepages use full-width Education (04), Academic service (05), Industry & research experience (06), and Creative work (07) sections. Honors sit within the UESTC undergraduate entry. The owner supplied the 2024 Chengdu company, 2025–2026 X-Institute research role and 2026 HKUST (Guangzhou) academic collaboration. No project duties or outcomes are inferred. The company name remains in Chinese because an official English name and logo have not been verified. Logo sources are documented in `assets/institutions/SOURCES.md`. Shared CSS/JS URLs are versioned when changed to avoid stale cached assets.

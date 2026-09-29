@@ -31,3 +31,42 @@ html[lang='zh-CN'] .eyebrow,html[lang='zh-CN'] .topic-label{letter-spacing:.08em
 @media(max-width:950px){.header-inner{flex-wrap:wrap;gap:8px 18px;padding:12px 0}.header-inner nav{order:3;flex-basis:100%;margin:0;justify-content:flex-start;gap:9px 23px}.header-inner .language-switch{margin-left:auto}html{scroll-padding-top:8rem}}
 @media(max-width:600px){.header-inner{gap:5px 12px}.header-inner nav{gap:8px 17px}.header-inner nav a{font-size:13px}.language-switch{font-size:12px}.language-switch a,.language-switch span{padding:4px 8px}.creative-feature{padding:20px}.creative-feature h3{font-size:21px}.creative-meta{gap:8px 12px}.writing-note{grid-template-columns:1fr;gap:7px}.cv-page .cv-actions{flex-wrap:wrap;gap:13px}.cv-actions .language-switch{margin-left:0}html[lang='zh-CN'] h1{font-size:38px}html[lang='zh-CN'] h1 span{font-size:23px}.honors ul{padding-left:18px}}
 @media print{.language-switch{display:none!important}}
+
+/* Prominent language access and full-width academic timeline. */
+.language-bar{background:#edf3fa;border-bottom:1px solid #dce7f3}
+.language-bar-inner{width:min(1080px,calc(100% - 64px));margin:auto;min-height:48px;display:flex;justify-content:flex-end;align-items:center;gap:14px}
+.language-label{font-size:13px;color:var(--muted)}
+.language-bar .language-switch{background:#fff;border-color:#b4c9df;font-size:14px}
+.language-bar .language-switch a,.language-bar .language-switch span{padding:5px 15px}
+.header-inner{min-height:66px;flex-wrap:nowrap;padding:0;gap:20px}
+.header-inner nav{order:initial;flex-basis:auto;gap:20px;margin-left:auto}
+html{scroll-padding-top:135px}
+.profile-links .inline-language{background:var(--blue);color:#fff;padding:3px 12px;border:0;border-radius:4px;font-weight:700}
+.profile-links{align-items:center}
+.institution-row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:32px;border-top:1px solid var(--rule);padding:30px 0;align-items:start}
+.institution-logos{display:flex;flex-direction:column;gap:19px;align-items:center;padding-top:4px}
+.institution-mark{width:136px;min-height:98px;display:flex;align-items:center;justify-content:center;border-radius:5px;overflow:hidden;background:white;padding:10px}
+.institution-mark img{display:block;width:116px;height:80px;object-fit:contain}
+.institution-mark.seal{width:116px;height:116px;padding:8px}
+.institution-mark.seal img{width:100px;height:100px}
+.institution-mark.thu{padding:0}
+.institution-mark.thu img{width:116px;height:116px;object-fit:cover}
+.institution-mark.dark{background:#163e69;border:1px solid #163e69}
+.institution-mark.wide{min-height:77px}
+.institution-mark.wide img{height:54px}
+.institution-link{display:block;text-decoration:none}
+.institution-copy h3{font-size:20px;line-height:1.45;margin:6px 0 9px}
+.institution-copy p{margin:0 0 8px;font-size:15px;color:var(--muted)}
+.institution-copy .partner{color:var(--link)}
+.institution-copy .role{font-size:16px;color:var(--ink)}
+.institution-copy .honors{margin-top:20px;border-top:0;padding-top:0}
+.institution-copy .honors h3{font-size:15px;margin:0 0 10px}
+.institution-copy .honors ul{margin:0;padding-left:19px;line-height:1.8}
+.no-mark .institution-copy{grid-column:2}
+.service-list{border-top:1px solid var(--rule);padding-top:24px}
+.service-list>div{margin-bottom:22px}
+.service-list h3{font-size:16px;margin:0 0 7px}
+.service-list p{font-size:15px;color:var(--muted);margin:0}
+#creative{padding-bottom:60px}
+@media(max-width:1000px){.header-inner{flex-wrap:wrap;padding:12px 0;gap:8px 18px}.header-inner nav{order:3;flex-basis:100%;margin:0;justify-content:flex-start;gap:12px 22px}html{scroll-padding-top:165px}}
+@media(max-width:600px){.language-bar-inner{width:calc(100% - 36px);min-height:47px;justify-content:space-between;gap:8px}.language-bar .language-switch{font-size:13px}.language-bar .language-switch a,.language-bar .language-switch span{padding:5px 13px}.language-label{font-size:12px}.header-inner nav{gap:8px 18px}.header-inner nav a{font-size:13px}.institution-row{grid-template-columns:1fr;gap:17px;padding:25px 0}.institution-logos{flex-direction:row;justify-content:flex-start;align-items:center;gap:18px;flex-wrap:wrap;padding:0}.institution-mark,.institution-mark.seal{width:100px;height:88px;min-height:88px;padding:7px}.institution-mark img,.institution-mark.seal img{width:86px;height:74px}.institution-mark.thu{padding:0}.institution-mark.thu img{width:100px;height:100px}.institution-mark.wide{width:140px;height:70px;min-height:70px}.institution-mark.wide img{width:126px;height:54px}.institution-copy h3{font-size:18px}.no-mark .institution-copy{grid-column:1}.institution-copy .honors li{font-size:14px}.section-heading{align-items:baseline}#creative{padding-bottom:35px}}
