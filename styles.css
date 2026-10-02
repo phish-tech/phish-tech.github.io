@@ -110,3 +110,14 @@ html[lang='zh-CN'] .research-detail h3{font-family:'Microsoft YaHei','PingFang S
 @media(max-width:800px){.intro{grid-template-columns:minmax(0,1fr) 145px;gap:30px}.portrait-block img{width:145px}.research-feature{grid-template-columns:230px minmax(0,1fr);gap:24px}.research-detail h3{font-size:22px}.research-visual{padding:17px}}
 @media(max-width:600px){.intro{padding-top:30px;gap:20px}.portrait-block img{width:94px}.intro .lead{font-size:27px;line-height:1.45}.intro-copy>p:not(.lead):not(.eyebrow):not(.position){font-size:14px}.section{padding-top:40px}.news-list li{grid-template-columns:66px minmax(0,1fr);gap:12px;padding:13px 0}.news-list time{font-size:11px;line-height:1.9}.news-list p{font-size:13px}.research-feature{grid-template-columns:1fr;gap:20px;padding:24px 0}.research-visual{min-height:0;padding:17px}.concept-flow{flex-direction:row;gap:13px;margin:15px 0 9px}.concept-flow span{font-size:10px;padding:9px 4px;flex:1;min-width:0}.concept-flow span+span{margin:0}.concept-flow span+span:before{content:'→';top:calc(50% - 8px);left:-12px}.research-detail h3{font-size:23px}.research-detail>p{font-size:14px}.header-inner nav{gap:8px 17px}html{scroll-padding-top:170px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Linked venue marks below academic service. */
+.service-marks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:28px}
+.service-mark{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:22px 16px 17px;background:#fff;border:1px solid var(--rule);border-radius:6px;text-decoration:none;color:var(--muted);font-size:12px;font-weight:600;transition:border-color .18s,box-shadow .18s}
+.service-mark:hover{border-color:#9bb5ce;box-shadow:0 4px 16px #163e690c;text-decoration:none}
+.service-mark-image{height:96px;width:100%;display:flex;align-items:center;justify-content:center}
+.service-mark img{display:block;width:100%;height:96px;object-fit:contain}
+@media(max-width:600px){.service-marks{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.service-mark{padding:17px 12px 14px}.service-mark-image,.service-mark img{height:82px}}
+@media(prefers-reduced-motion:reduce){.service-mark{transition:none}}
+
+.service-mark-image.smc-mark{background:#163e69;border-radius:4px;padding:14px}.service-mark-image.smc-mark img{height:68px}
