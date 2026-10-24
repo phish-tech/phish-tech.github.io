@@ -1,0 +1,118 @@
+{
+  "retrieved": "2026-10-24",
+  "source": "https://scholar.google.com/citations?user=TJ2_Fq8AAAAJ&sortby=pubdate&pagesize=100",
+  "papers": [
+    {
+      "authors": "S Cheng, J Zhang, Boyuan Gu, S You, Y Chen, H Xu, Z Lu, H Zhou, X Hu",
+      "title": "TamedFlow: Trajectory-Aware Distillation for Teacher-Assisted Diffusion Sampling",
+      "url": "https://arxiv.org/abs/2610.26025",
+      "venue": "arXiv preprint arXiv:2610.26025, 2026",
+      "year": "2026"
+    },
+    {
+      "authors": "H Sun, Boyuan Gu, Y Liu",
+      "title": "CALM-BP: Observation-Matched Physiological Semantic Grounding for Non-Contact Blood Pressure Estimation",
+      "url": "https://arxiv.org/abs/2608.21744",
+      "venue": "arXiv preprint arXiv:2608.21744, 2026",
+      "year": "2026"
+    },
+    {
+      "authors": "N Zhu, A Chen, M Zhao, J Xu, J Liang, Boyuan Gu, LJ Deng",
+      "title": "Rectify Then Diffuse: Disentangling Concepts Before Denoising Trajectory Unfolds",
+      "url": "https://arxiv.org/abs/2608.03135",
+      "venue": "arXiv preprint arXiv:2608.03135, 2026",
+      "year": "2026"
+    },
+    {
+      "authors": "Y Zhu, H Liu, Boyuan Gu",
+      "title": "BioDisclose: An Actionability-Aware Benchmark for Biomedical Safety under Adversarial Elicitation",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJ2_Fq8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TJ2_Fq8AAAAJ:roLk4NBRz8UC",
+      "venue": "IEEE BIBE, 2026",
+      "year": "2026"
+    },
+    {
+      "authors": "Boyuan Gu, H Sun, Y Liu, G Ma, G Sun, X Ding",
+      "title": "Synergistic Blood Pressure Estimation via Contactless mmWave Radar and Imaging Photoplethysmography: A Feasibility Study",
+      "url": "https://doi.org/10.1109/JSEN.2026.3706110",
+      "venue": "IEEE Sensors Journal, 2026",
+      "year": "2026"
+    },
+    {
+      "authors": "H Liu*, Boyuan Gu*, S Cheng, H Sun, S You, X Hu",
+      "title": "PhysDox: Benchmarking LLMs on Physical Feasibility Auditing of Physiological Sensing Protocols",
+      "url": "https://arxiv.org/abs/2606.05003",
+      "venue": "Findings of EMNLP, 2026",
+      "year": "2026"
+    },
+    {
+      "authors": "X Zhao, Boyuan Gu",
+      "title": "Robust Human Activity Recognition via Multimodal Fusion of mmWave Radar and LiDAR",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJ2_Fq8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TJ2_Fq8AAAAJ:0EnyYjriUFMC",
+      "venue": "IEEE ICMMT, 2026",
+      "year": "2026"
+    },
+    {
+      "authors": "Boyuan Gu, Y Yang, S Cheng, X Ding",
+      "title": "From Elastic to Viscoelastic: An EEMD-Enhanced Pulse Transit Time Model for Robust Blood Pressure Estimation",
+      "url": "https://arxiv.org/abs/2604.27500",
+      "venue": "IEEE EMBC, 2026",
+      "year": "2026"
+    },
+    {
+      "authors": "Boyuan Gu, S Cheng",
+      "title": "The Neural-Wave Quick Escape Manual 2036: A Field Guide to Adversarial Living in the Era of\" Empathic\" AIoT",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJ2_Fq8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TJ2_Fq8AAAAJ:eQOLeE2rZwMC",
+      "venue": "ACM Interactions, 2026 (accepted)",
+      "year": "2026"
+    },
+    {
+      "authors": "L Zhao, X Guo, Boyuan Gu, X Tian",
+      "title": "Non-Cooperative UWB Base Station Position Estimation Method in Indoor Environments",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJ2_Fq8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TJ2_Fq8AAAAJ:hqOjcs7Dif8C",
+      "venue": "IEEE CloudCom, 2025",
+      "year": "2025"
+    },
+    {
+      "authors": "Boyuan Gu, J Tang, Y Tang, H Sun, C Xie",
+      "title": "A U-net and Transformer Paralleled Network for Robust Cuffless Blood Pressure Estimation Based on CWT-transformed PPG Images",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJ2_Fq8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TJ2_Fq8AAAAJ:YsMSGLbcyi4C",
+      "venue": "IEEE SMC, 2025",
+      "year": "2025"
+    },
+    {
+      "authors": "Boyuan Gu, Y Yang, S You, H Sun, J Sun, S Guo",
+      "title": "Improved VMD Based Remote Heartbeat Estimation Utilizing 60GHz mmWave Radar",
+      "url": "https://doi.org/10.1109/SMC58881.2025.11342664",
+      "venue": "IEEE SMC, 2025",
+      "year": "2025"
+    },
+    {
+      "authors": "G Ma, Boyuan Gu, H Sun, Y Liu, Z Wu, W Pei, T Li, J Sun, G Sun, X Ding",
+      "title": "Cuff-less Continuous Blood Pressure Estimation via Multimodal Integration of Millimeter-Wave Radar and PPG Signals",
+      "url": "https://doi.org/10.1109/EMBC58623.2025.11253283",
+      "venue": "IEEE EMBC, 2025",
+      "year": "2025"
+    },
+    {
+      "authors": "J Tang, Boyuan Gu, T Li, YB Lu",
+      "title": "SCCA-YOLO: Spatial Channel Fusion and Context-Aware YOLO for Lunar Crater Detection",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJ2_Fq8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TJ2_Fq8AAAAJ:qjMakFHDy7sC",
+      "venue": "Remote Sensing 17 (14), 2380, 2025",
+      "year": "2025"
+    },
+    {
+      "authors": "S You, Boyuan Gu, Y Yang, S Yu, S Guo",
+      "title": "DT4ECG: A dual-task learning framework for ECG-based human identity recognition and human activity detection",
+      "url": "https://arxiv.org/abs/2502.11023",
+      "venue": "arXiv preprint arXiv:2502.11023, 2025",
+      "year": "2025"
+    },
+    {
+      "authors": "Boyuan Gu, H Liu",
+      "title": "An Optimal Stopping Model for Elevator Group Control Network Based on Fuzzy Mathematics Algorithm",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJ2_Fq8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=TJ2_Fq8AAAAJ:u5HHmVD_uO8C",
+      "venue": "International Conference on Computer Information Science and Application Technology, 2024",
+      "year": "2024"
+    }
+  ]
+}

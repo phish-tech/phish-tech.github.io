@@ -121,3 +121,14 @@ html[lang='zh-CN'] .research-detail h3{font-family:'Microsoft YaHei','PingFang S
 @media(prefers-reduced-motion:reduce){.service-mark{transition:none}}
 
 .service-mark-image.smc-mark{background:#163e69;border-radius:4px;padding:14px}.service-mark-image.smc-mark img{height:68px}
+
+/* Selected papers and compact bibliography, October 2026. */
+.selected-papers .publication{padding:23px 0;grid-template-columns:144px minmax(0,1fr)}
+.selected-papers .pub-body h3{font-size:18px;margin-bottom:9px}
+.selected-papers .authors{margin:0;font-size:13px}
+.compact-publications{padding-left:24px;margin:0;border-top:1px solid var(--rule);padding-top:9px}
+.compact-publications li{font-size:14px;line-height:1.75;padding:10px 0 10px 7px;color:var(--muted)}
+.compact-publications li::marker{font-size:12px;color:var(--muted)}
+.citation-title a{color:var(--ink);text-decoration:none}.citation-title a:hover{text-decoration:underline;color:var(--link)}
+.citation-authors strong{color:var(--ink)}.citation-venue{font-style:italic}
+@media(max-width:600px){.selected-papers .publication{grid-template-columns:1fr}.compact-publications li{font-size:13px;padding:9px 0 9px 3px}.selected-papers .pub-body h3{font-size:17px}}
