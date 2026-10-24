@@ -132,3 +132,14 @@ html[lang='zh-CN'] .research-detail h3{font-family:'Microsoft YaHei','PingFang S
 .citation-title a{color:var(--ink);text-decoration:none}.citation-title a:hover{text-decoration:underline;color:var(--link)}
 .citation-authors strong{color:var(--ink)}.citation-venue{font-style:italic}
 @media(max-width:600px){.selected-papers .publication{grid-template-columns:1fr}.compact-publications li{font-size:13px;padding:9px 0 9px 3px}.selected-papers .pub-body h3{font-size:17px}}
+
+/* Bibliography audit: readable authors and accessible resource controls. */
+.compact-publications .citation-title{display:block;font-weight:600;margin-bottom:2px}
+.compact-publications .citation-authors{color:var(--muted)}
+.compact-publications li{border-bottom:1px solid #edf1f6;padding-top:12px;padding-bottom:12px;overflow-wrap:anywhere}
+.selected-papers .paper-links{gap:8px 12px;margin-top:12px}
+.selected-papers .paper-links a{display:inline-flex;align-items:center;min-height:36px;padding:4px 11px;border:1px solid #cbd8e5;border-radius:4px;font-size:12px;background:#fafcfe}
+.selected-papers .paper-links a:hover{background:#edf3fa;border-color:#9bb5ce;text-decoration:none}
+.selected-papers .authors{line-height:1.8}
+.author-note{margin-top:0;margin-bottom:15px;line-height:1.7}
+@media(max-width:600px){.selected-papers .paper-links a{min-height:40px}.compact-publications li{font-size:13px;line-height:1.85}.selected-papers .pub-meta{gap:8px 12px}.selected-papers .pub-body h3{overflow-wrap:anywhere}.selected-papers .authors{font-size:13px}}
