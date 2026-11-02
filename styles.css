@@ -143,3 +143,14 @@ html[lang='zh-CN'] .research-detail h3{font-family:'Microsoft YaHei','PingFang S
 .selected-papers .authors{line-height:1.8}
 .author-note{margin-top:0;margin-bottom:15px;line-height:1.7}
 @media(max-width:600px){.selected-papers .paper-links a{min-height:40px}.compact-publications li{font-size:13px;line-height:1.85}.selected-papers .pub-meta{gap:8px 12px}.selected-papers .pub-body h3{overflow-wrap:anywhere}.selected-papers .authors{font-size:13px}}
+
+/* Complete navigation, native news disclosure, and understated page views. */
+.header-inner nav{gap:12px 18px}.header-inner nav a{white-space:nowrap;font-size:13px}
+.news-archive{margin-top:12px}.news-archive summary{cursor:pointer;width:fit-content;color:var(--link);font-size:13px;padding:9px 3px;min-height:40px}
+.news-archive summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.news-hide{display:none}.news-archive[open] .news-show{display:none}.news-archive[open] .news-hide{display:inline}
+.news-archive .news-list{margin-top:9px;border-top:0}
+.contact-email{overflow-wrap:anywhere;max-width:100%}
+.footer-inner{align-items:center}.view-counter{display:inline-flex;align-items:center;opacity:.75;min-height:28px}.view-counter img{display:block;height:20px;max-width:140px}.view-counter:hover{opacity:1}
+@media(max-width:1000px){.header-inner nav{gap:9px 18px}}
+@media(max-width:600px){.header-inner nav{gap:6px 15px}.header-inner nav a{font-size:12px}.view-counter{align-self:flex-end;margin-top:-4px}html{scroll-padding-top:180px}}

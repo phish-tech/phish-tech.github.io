@@ -26,3 +26,6 @@ The homepages use full-width Education (04), Academic service (05), Industry & r
 
 ## Research highlights and news
 The introduction states the research theme; three selected studies use accessible HTML concept diagrams. These are explanatory schematics, not experimental results or reproduced paper figures. News dates and publication stages were supplied by the owner. Update both language editions together; keep titles and quantitative claims grounded in the existing publication records.
+
+## News and page views
+Homepages display the latest five news items; a native details disclosure contains earlier news and works without JavaScript. The footer uses a shared Hits.sh badge for cumulative page requests across English and Chinese, starting 2026-11-02. It does not reconstruct historic traffic or represent unique readers. Cache behavior, bots and service availability affect the count. Badge reference: https://github.com/silentsoft/hits. No extra count is configured.
